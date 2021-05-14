@@ -1,0 +1,5 @@
+--------------------------------------------------------
+--  DDL for Table EBA_SPATIAL_AOI
+--------------------------------------------------------
+
+  CREATE TABLE "EBA_SPATIAL_AOI" ("ID" NUMBER(10,0), "AOI_NAME" VARCHAR2(200), "DATETIME" TIMESTAMP (6) WITH TIME ZONE, "OWNER" VARCHAR2(200), "GEOMETRY" "SDO_GEOMETRY")  VARRAY "GEOMETRY"."SDO_ELEM_INFO" STORE AS SECUREFILE LOB  VARRAY "GEOMETRY"."SDO_ORDINATES" STORE AS SECUREFILE LOB ;
